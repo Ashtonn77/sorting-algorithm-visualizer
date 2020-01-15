@@ -36,7 +36,7 @@ body{
 @media screen and (max-width:600px){
     .container{
         max-height: 300px;
-    }
+    } 
 }
 
 @media screen and (max-width:250px){
@@ -45,24 +45,18 @@ body{
     }
 }
 
-.nav{ 
-    min-height: 10vh;    
-}
-
 .nav-links{
-    display: flex;
-    width: 90%;
-    justify-content: flex-end;
+    display: flex; 
+    justify-content: space-evenly;
     align-items: center;
-    font-family: 'Open Sans Condensed', sans-serif;
-    
+    font-family: monospace;    
 }
 
 h3{
     color: white;
     letter-spacing: 5px;
     font-family: 'Gayathri', sans-serif;
-    margin: 10px 0px;
+    margin-top: 25px;
     width: 400px;
 }
 
@@ -80,4 +74,12 @@ a{
 
 a:hover{
     font-weight: bold;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    margin: 80vh 20px 0px 0px;
+    font-family: monospace;
 }
