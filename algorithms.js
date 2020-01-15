@@ -1,4 +1,4 @@
-import { container, swap } from './script.js'
+import { swap } from './functions.js'
 
 export async function insertionSort(delay = 1) {
 
