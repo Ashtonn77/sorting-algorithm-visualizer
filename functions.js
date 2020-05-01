@@ -24,11 +24,6 @@ function refresh(){
     let btn = document.querySelector('.insertion');
     btn.addEventListener('click', () => { insertionSort(); })
   };
-  
-  /*export function quickSortBtn(blocks) {
-    let btn = document.querySelector('.quick');
-    btn.addEventListener('click', () => { quickSort(blocks); });
-  };*/
 
   export function swap(el1, el2) {
     return new Promise(resolve => {
