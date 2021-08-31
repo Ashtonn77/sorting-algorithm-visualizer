@@ -11,8 +11,6 @@ selected algorithm in action, sorting the bars accordingly. <br/>
 
 ![image](https://user-images.githubusercontent.com/56860086/131518501-30b98e4d-deec-4a5e-b230-9679a6e5c4b7.png)
 
-<br/>
-
 ### Technologies used:
 - JavaScript
 - Html
